@@ -15,7 +15,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-+tar1am!yo8kd@ly&@q#ku#55n$hx7@9x)ny0s%thbnetk&1x#'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'ec2-13-60-42-199.eu-north-1.compute.amazonaws.com',
+    '13.60.42.199', 
+    'localhost',
+    '127.0.0.1',
+]
 # Application definition
 INSTALLED_APPS = [
     'django.contrib.admin',
