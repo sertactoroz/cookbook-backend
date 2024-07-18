@@ -33,6 +33,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'recipes',
     'corsheaders',
+    'django-extensions',
 ]
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
