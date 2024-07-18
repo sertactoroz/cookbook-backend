@@ -17,6 +17,7 @@ SECRET_KEY = 'django-insecure-+tar1am!yo8kd@ly&@q#ku#55n$hx7@9x)ny0s%thbnetk&1x#
 DEBUG = True
 ALLOWED_HOSTS = [
     'ec2-13-60-42-199.eu-north-1.compute.amazonaws.com',
+    'https://cookbook-s3-bucket.s3.eu-north-1.amazonaws.com',
     '13.60.42.199', 
     'localhost',
     '127.0.0.1',
@@ -47,6 +48,7 @@ MIDDLEWARE = [
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",  # Replace with your frontend URL
     "http://127.0.0.1:3000",   # If using localhost
+    "https://cookbook-s3-bucket.s3.eu-north-1.amazonaws.com",   
 ]
 # For development, allow all origins
 CORS_ALLOW_ALL_ORIGINS = True
